@@ -1,24 +1,27 @@
-# README
+# AnimePROJECT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository contains application of the Animeproject.
 
-Things you may want to cover:
+This application is a simple example of how to render, sort, filter, export, import structured elements using Elixir/Phoenix and LiveView.
 
-* Ruby version
+## Installation and running this solution
 
-* System dependencies
+The application depends on multiple parts to work properly. Even though it is possible to boot up in different ways.
 
-* Configuration
+### Dependencies
 
-* Database creation
+Recommended dependencies are as follows:
 
-* Database initialization
+- Docker (for Postgres 14, ruby 3.1.0, redis and sidekiq)
 
-* How to run the test suite
+Docker installation steps can be found [here](https://docs.docker.com/get-docker/).
 
-* Services (job queues, cache servers, search engines, etc.)
+### Setting Up Local Environment
 
-* Deployment instructions
+First of all, you need to fetch all dependencies for the application using `mix deps.get`.
 
-* ...
+We use Docker to set up the container containing the Postgres database, to start it you need to run:
+
+```sh
+docker-compose up -d
+```
