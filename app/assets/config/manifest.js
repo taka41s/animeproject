@@ -1,0 +1,12 @@
+//= link_tree ../images
+//= link_directory ../stylesheets .css
+//= link_tree ../../javascript .js
+//= link_tree ../../../vendor/javascript .js
+//= link jquery-3.3.1.min.js
+//= link bootstrap.min.js
+//= link player.js
+//= link jquery.nice-select.min.js
+//= link mixitup.min.js
+//= link jquery.slicknav.js
+//= link owl.carousel.min.js
+//= link main.js
