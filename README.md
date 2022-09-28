@@ -2,7 +2,7 @@
 
 This repository contains application of the Animeproject.
 
-This application is a simple example of how to render, sort, filter, export, import structured elements using Elixir/Phoenix and LiveView.
+This application is a streaming video service example.
 
 ## Installation and running this solution
 
